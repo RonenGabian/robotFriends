@@ -34,7 +34,7 @@ class App extends Component {
         });
         console.log('render');
         return !robots.length ?
-        <h1>Loading Robots,  Please wait.. this is some change</h1> :
+        <h1>Loading Robots,  Please wait..</h1> :
         (
             <div className='tc'>
                 <h1 className='tc f1'>RobotFriends</h1>
